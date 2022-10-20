@@ -13,10 +13,10 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            primaryBg: '#2C3639',
-            secondaryBG: '#3F4E4F',
+            primaryBg: '#40E0D0',
+            secondaryBG: '#566573',
             primaryTxt: '#A27B5C',
-            secondaryTxt: '#DCD7C9'
+            secondaryTxt: '#FFFFFF'
           }
         }
       }
@@ -68,7 +68,7 @@
               </div>
               <div>
                 <label for="RegNo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Student
-                  ID</label>
+                  Rno</label>
                 <input type="text" name="RegNo" id="id"  maxlength="15"
                   class="bg-secondaryBG border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-secondaryBG dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   placeholder="310620205089" required>
@@ -78,17 +78,17 @@
                   option</label>
                 <select id="course"
                   class="bg-secondaryBG border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-secondaryBG dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                  <option selected>Choose a course</option>
-                  <option value="Machine learning">Machine learning</option>
-                  <option value="Web development">Web development</option>
-                  <option value="IOT">IOT</option>
-                  <option value="Cyber security">Cyber security</option>
+                  <option selected>Choose audit course</option>
+                  <option value="Machine learning">IOT</option>
+                  <option value="Web development">Cyber security</option>
+                  <option value="IOT">Java</option>
+                  <option value="Cyber security">Data science</option>
                 </select>
               </div>
               <div>
 
                 <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300" for="file_input">Upload
-                  your image</label>
+                 photo</label>
                 <input
                   class="block w-full text-sm text-gray-900 bg-secondaryBG rounded-lg border border-gray-300 cursor-pointer dark:text-gray-400 focus:outline-none dark:bg-secondaryBG dark:border-gray-500 dark:placeholder-gray-400"
                   id="file_input" type="file" onchange="image(event)">
@@ -106,7 +106,7 @@
       <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 sm:py-24" >
         <div class="max-w-xl mx-auto text-center">
           <h2 class="text-3xl font-bold tracking-tight sm:text-5xl text-secondaryTxt">
-            Enrolled Students
+            Student info
           </h2>
 
         </div>
@@ -121,15 +121,15 @@
             <blockquote
               class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg shadow-xl bg-secondaryBG">
               <span class="bg-green-100 text-green-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-900 font-bold mb-2">Enrolled</span>
-              <p class="text-lg font-bold text-secondaryTxt">Katie</p>
+              <p class="text-lg font-bold text-secondaryTxt">Abhi</p>
               <p class="mt-1 text-xl font-medium text-secondaryTxt">
-                310620205089
+                18
               </p>
               <p class="mt-1 text-sm font-medium text-secondaryTxt">
-                123@gmail.com
+                abhi@gmail.com
               </p>
               <p class="mt-1 text-xl font-bold text-secondaryTxt">
-                Web development
+                Data science
               </p>
 
             </blockquote>
